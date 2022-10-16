@@ -2,17 +2,13 @@
 typedef long long int lli;
 typedef long long unsigned int llu;
 using namespace std;
-
 int main(){
-	ios_base:: sync_with_stdio(0);
-	cin.tie(0);cout.tie(0);
-	int t;
+	lli t,a,b,c;
 	cin>>t;
-	llu n,m;
 	while(t--){
-		cin>>n>>m;
-		int div=n/m+n%m;
-		cout<<div<<"\n";
+		cin>>a>>b>>c;
+		if((a+b==c) || (abs(a-b)==abs(c))) cout<<"Yes\n";
+		else cout<<"No\n";
 	}
 	return 0;
 }
