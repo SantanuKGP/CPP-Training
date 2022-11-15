@@ -5,6 +5,7 @@ using namespace std;
 int main(){
 	vector <int> s={1,2,7,2};
 	vector <int> s1={1,4,3,2};
+	cout<< (-6%3)<<"\n";
 	for(auto& i:s){
 		cout<<i<<" ";
 	}
